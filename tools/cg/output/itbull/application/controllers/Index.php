@@ -30,5 +30,6 @@ class IndexController extends Yaf_Controller_Abstract {
 	public function listAction($name = "李彦钊"){
 	    $this->getView()->assign("content",'Hello World');
 	    $this->getView()->assign("name",$name);
+        return TRUE;
     }
 }
